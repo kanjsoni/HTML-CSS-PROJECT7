@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+   overflow: hidden;
+   max-width: fit-content;
+   margin: 0;
+}
+.main-div{
+    max-width: 100%;
+    
+}
+nav {
+    margin-top: 2rem;
+    margin-left: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 900;
+    gap: 40px;
+    
+}
+nav img{
+    height: 2rem;
+}
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family:'Roboto' sans-serif;
+    font-size: 1.5rem;
+    font-weight: 900;
+    gap: 3rem;
+    list-style: none;
+    color: rgb(42, 5, 128);
+
+}
+
+.signin-btn{
+    background-image: linear-gradient(to right,rgb(12, 118, 239), rgb(225, 32, 209));
+    border:none ;
+    color: white;
+    font-weight: 700;
+    padding: 12px 30px;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+    margin-right: 10rem;
+}
+
+.intro-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-section{
+    text-align: center;
+    margin-top: 6rem;
+    font-family: 'Roboto', sans-serif;
+}
+.left-section h1{
+    color: rgb(66, 66, 226);
+    font-size: 3rem;
+    
+}
+.left-section h4{
+    margin-left: 2rem;
+    margin-top: 3rem;
+    color: rgb(43, 43, 43);
+    font-size: 1rem;
+    text-align: left;
+}
+
+.learn-more-btn{
+    background-image: linear-gradient(to right,rgb(12, 118, 239), rgb(225, 32, 209));
+    border:none ;
+    color: white;
+    padding: 12px 30px;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 25px;
+    font-weight: 700;
+    margin-top: 3rem;
+    cursor: pointer;
+    align-items: center;
+}
+.vector-img{
+position: absolute;
+bottom: 5px;
+left: 16.5rem;
+
+}
+.vector-dot{
+    position: absolute;
+    bottom:5rem;
+    left: 20rem;
+}
+.imgs-div img:nth-child(3){
+    height: 600px;
+}
+.imgs-div img:nth-child(4){
+    height: 950px;
+    z-index: -1;
+    position: relative;
+    top: -45rem;
+}
+    
+    
